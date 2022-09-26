@@ -14,4 +14,4 @@ The aim of this project is to build a VGG16 model that can detect the area of da
 
 
 
-https://github.com/IBM-EPBL/IBM-Project-14442-1659585720/tree/main/Assignments
+<link rel="stylesheet" href="https://github.com/IBM-EPBL/IBM-Project-14442-1659585720/tree/main/Assignments">
