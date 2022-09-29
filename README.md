@@ -1,4 +1,4 @@
-# IBM-Project-14442-1659585720 ![image](https://user-images.githubusercontent.com/111693185/193082831-c5086d11-347e-4dcb-8e0a-ec5baffbc595.png)
+# IBM-Project-14442-1659585720 
 
 
 
