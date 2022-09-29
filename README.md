@@ -1,4 +1,5 @@
-# IBM-Project-14442-1659585720
+# IBM-Project-14442-1659585720 ![image](https://user-images.githubusercontent.com/111693185/193081642-816f482f-745f-4447-aa8a-6fc010bf8358.png)
+
 
 Intelligent Vehicle Damage Assessment &amp; Cost Estimator for Insurance Companies
 
