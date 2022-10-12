@@ -12,9 +12,7 @@ Nowadays, a lot of money is being wasted in the car insurance business due to le
 
 The aim of this project is to build a VGG16 model that can detect the area of damage on a car. The rationale for such a model is that it can be used by insurance companies for faster processing of claims if users can upload pics and the model can assess damage( be it dent scratch from and estimates the cost of damage. This model can also be used by lenders if they are underwriting a car loan, especially for a used car.
 
-<img width="612" alt="Untitled" src="https://user-images.githubusercontent.com/111693185/192304884-29067492-cd8a-4721-aaee-e61ae2961aba.png">
 
 
 
-<link rel="stylesheet" href="https://github.com/IBM-EPBL/IBM-Project-14442-1659585720/tree/main/Assignments">
-  
+![Presentation1 (1)_page-0001](https://user-images.githubusercontent.com/111693185/195320394-51b9830a-6cc9-417c-a903-20252f17f763.jpg)
