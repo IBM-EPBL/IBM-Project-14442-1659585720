@@ -20,4 +20,4 @@ The aim of this project is to build a VGG16 model that can detect the area of da
 
 
 
-[Contribution guidelines for this project](docs/Ideation phase.md)
+[Contribution guidelines for this project](docs/Ideation Phase.md)
