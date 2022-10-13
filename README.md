@@ -20,3 +20,4 @@ The aim of this project is to build a VGG16 model that can detect the area of da
 
 
 
+Rendered supported color model in HEX format.
