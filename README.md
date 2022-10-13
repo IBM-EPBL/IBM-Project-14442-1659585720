@@ -1,8 +1,8 @@
-# IBM-Project-14442-1659585720 
+## IBM-Project-14442-1659585720 
 
 
 
-Intelligent Vehicle Damage Assessment &amp; Cost Estimator for Insurance Companies
+# Intelligent Vehicle Damage Assessment &amp; Cost Estimator for Insurance Companies
 
 
 Description
@@ -18,6 +18,7 @@ The aim of this project is to build a VGG16 model that can detect the area of da
 
 ![Presentation1 (1)_page-0001](https://user-images.githubusercontent.com/111693185/195320394-51b9830a-6cc9-417c-a903-20252f17f763.jpg)
 
+# - PROJECT DESIGN PHASE 
 Ideation Phase
 
 - [x] Empathy Map
