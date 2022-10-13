@@ -2,7 +2,7 @@
 
 
 
-# Intelligent Vehicle Damage Assessment &amp; Cost Estimator for Insurance Companies
+# Intelligent Vehicle Damage Assessment &amp; Cost Estimator for Insurance Companies :slightly_smiling_face:
 
 
 Description
