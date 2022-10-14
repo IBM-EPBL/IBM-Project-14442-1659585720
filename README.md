@@ -27,6 +27,8 @@ Ideation Phase
 - [x] Empathy Map
 - [x] Brainstrom
 - [x] Literature Survey
+- [x] Problem Statement
+
 
 Project design Phase - 1 
 - [x] Problem_solution_fit
