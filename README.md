@@ -35,4 +35,9 @@ Project design Phase - 1
 - [x] Proposed Solution
 - [x] Solution Architecture
 
+Project design Phase - 2
+- [x] Customer Journey
+- [x] Technology Architecture
+- [x] Dataflow Diagram
+- [x] Functional Requirements 
 
