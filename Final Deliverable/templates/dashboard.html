@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DASHBOARD</title>
+
+    <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("/static/images/2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 2px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 700px;
+    float: right;
+    height: 70px;
+  
+}
+
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 65px
+}
+
+.form{
+    width: 300px;
+    height: 340px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}           
+.end {
+                overflow: hidden;
+                background-color: rgb(63, 63, 63);
+                position: auto;
+                bottom: 0;
+                height: 55px;
+                width: 100%;
+            }
+</style>
+
+</head>
+
+<body = onload="flashMessage()">
+    <script>
+      function flashMessage(){
+        if("{{flash_message}}" == "True"){
+          alert("account created successfully")
+        }
+        if("{{flash_message}}" == "Fals"){
+                alert("invalid credentials")
+        }
+        if("{{flash_message}}" == "Fal"){
+          alert("Logged in successfully")
+        }
+      }
+    </script>
+    <body style:"background-image:static\images\2.jpg;">
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h6 class="logo"></h6>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="{{ url_for('dashboard') }}">HOME</a></li>
+                    <!--<li><a href="{{ url_for('login') }}">LOGIN</a></li>-->
+                    <!--<li><a href="{{ url_for('register') }}">REGISTER</a></li>-->
+                    <li><a href="{{ url_for('prediction') }}">PREDICTION</a></li>
+                    <li><a href="{{ url_for('logout') }}">LOGOUT</a></li>
+                    <li><a href="#section -1">ABOUT</a></li>
+                </ul>
+            </div>
+
+        </div> 
+        <div class="content">
+
+
+            <h1>Intelligent Vehicle <br><span>Damage Assessment &<br>Cost Estimator for </span><br>Insurance Companies</h1>
+              <br><br><br>
+                <button class="cn"><a href="{{ url_for('prediction') }}">PREDICTION</a></button>
+            <!--form action="dashboard" method="POST">
+                <div class="form">
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email Id">
+                    <input type="password" name="password" id="password" placeholder="Enter Your Password ">
+                    <button class="btnn"><a href="">Login</a></button>
+
+                    <p class="link">Don't have an account<br>
+                    <a href="#">Sign up </a> here</a></p>
+
+                </div>
+			</form!-->
+                    </div>
+                </div>
+        </div>
+    </div>
+<br><br><br><center>
+           <div id= "section -1"> <h2 style:font-family:'Times New Roman', Times, serif;"><center>ABOUT PROJECT</center></h2></div>
+<br><br>
+           <p style:"font-size:50px;font-family: 'Times New Roman', Times, serif;">Vehicle Damage Detection is used to reduce claims leakage during insurance processing.Vechile Inspectin and validation are usually done.As it takes a long time,because a person need to come and Inspect Damage.Here we are trying to Automate the procedure .Using this Automation we can avoid time consumption for Insurance claim procedure</p>
+<br><br><br><br>
+ <a style:"color:white;
+                       padding: 22px;
+                       background-color: black;
+                       opacity: 85%;
+                       border-radius: 12px;
+                       margin-left: 25px;
+                       margin-bottom: -20px;" href="https://www.facebook.com" class="fa fa-facebook"></a>
+             <a style:"color:white;
+                       padding: 20px;
+                       background-color: black;
+                       opacity: 85%;
+                       border-radius: 12px;
+                       margin-left: 25px;
+                       margin-bottom: -20px;" href="https://www.twitter.com" class="fa fa-twitter"></a>
+             <a style:"color:white;
+                       padding: 20px;
+                       background-color: black;
+                       opacity: 85%;
+                       border-radius: 12px;
+                       margin-left: 25px;
+                       margin-bottom: -20px;" href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+             <a style:"color:white;
+                       padding: 20px;
+                       background-color: black;
+                       opacity: 85%;
+                       border-radius: 12px;
+                       margin-left: 25px;
+                       margin-bottom: -20px;" href="https://www.instagram.com" class="fa fa-instagram"></a>
+        </center>
+                
+           </div><br><br><br>
+           <div class="end">
+               <p style="color:rgb(255, 246, 246);
+                         margin-top: 20px;
+                         text-align: center;">
+             <b> Copyright &#169;  2022. All Rights Reserved</b>
+               </p>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+      </html>
