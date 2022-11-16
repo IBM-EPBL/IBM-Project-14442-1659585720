@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> LOGOUT </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-family:Arial, Helvetica, sans-serif
+
+            }
+           nav{
+                position:relative;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 70px;
+                padding: 10px 100px;
+                box-sizing:border-box;
+            }
+            
+            nav .logo{
+                padding: 20px;
+                height: 40px;
+                float: left;
+                font-size: 20px;
+                font-weight: bold;             
+                color: #fff;
+            }
+            nav ul {
+                list-style:none;
+                float: right;
+                margin: 0;
+                padding: 0;
+                display: flex;     
+                font-weight: 600;
+            }
+            nav ul li a{
+                float: right;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 15px;
+                text-decoration: none;
+                font-size: 17px;        
+            }
+            nav ul li a:hover{
+                background: rgb(200, 212, 200);
+                border-radius: 6px;
+                color: rgb(51, 48, 47);
+            }
+            nav ul li a.active{
+                background: #e2472f;
+                border-radius: 6px;
+}
+
+      body {
+          margin:0;
+          padding:0;
+          font-family: sans-serif;
+          background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("/static/images/2.jpg");
+          background-position: center;
+          background-size: cover;
+           height: 100vh;
+}
+               
+            .end {
+                overflow: hidden;
+                background-color: rgb(63, 63, 63);
+                position: fixed;
+                bottom: 0;
+                height: 55px;
+                width: 100%;
+   }
+        
+  </style>
+    </head>
+    <body style="background-image: 2.jpg;">
+        <div class="wrap">
+        <nav>
+        <div class="logo"> LOGOUT PAGE</div>
+        <ul>
+            <li><a href="{{ url_for('login') }}">Login </a></li>
+            <li><a href="{{ url_for('register') }}">Register </a></li>
+            <!--<li><a href="prediction.html">Prediction </a></li>-->
+        </ul>
+        </div>
+        </nav><br><br>
+
+        <div style="margin-top: 80px;" class="container">
+            <center><br>
+			<form action="">
+            <h3 style="font-size: 42px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #ff7200;">Successfully Logged Out !</h3><br>
+            <b style="font-size:25px; color: #ff7200;">Thanks For Visting Our Website</b><br><br><br><br>
+            <!--<button><a style="color:rgb(#9AFEFF);" href="login.html" value="login">LOGIN</a></button>-->
+            </center>
+        </div>
+        
+          </div>            
+        </body>
+        </html>
