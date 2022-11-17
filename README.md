@@ -22,7 +22,7 @@ The aim of this project is to build a VGG16 model that can detect the area of da
 - [x] Assignment 2
 - [x] Assignment 3
 
- PROJECT DESIGN & PLANNING :innocent:
+PROJECT DESIGN & PLANNING :innocent:
 Ideation Phase
 - [x] Empathy Map
 - [x] Brainstrom
