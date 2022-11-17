@@ -28,6 +28,11 @@ Ideation Phase
 - [x] Brainstrom
 - [x] Literature Survey
 - [x] Problem Statement
+# PROJECT PLANNING PHASE :innocent:
+- [x] SPRINT 1
+- [x] SPRINT 2
+- [x] SPRINT 3
+- [x] SPRINT 4
 
 
 Project design Phase - 1 
