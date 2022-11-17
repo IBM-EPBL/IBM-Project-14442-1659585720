@@ -17,12 +17,12 @@ The aim of this project is to build a VGG16 model that can detect the area of da
 
 
 ![Presentation1 (1)_page-0001](https://user-images.githubusercontent.com/111693185/195320394-51b9830a-6cc9-417c-a903-20252f17f763.jpg)
-# Assignment :innocent:
+ Assignment :innocent:
 - [x] Assignment 1
 - [x] Assignment 2
 - [x] Assignment 3
 
-# PROJECT DESIGN & PLANNING :innocent:
+ PROJECT DESIGN & PLANNING :innocent:
 Ideation Phase
 - [x] Empathy Map
 - [x] Brainstrom
