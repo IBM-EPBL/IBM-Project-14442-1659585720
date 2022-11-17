@@ -1,0 +1,141 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> PREDICTION </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-family:Arial, Helvetica, sans-serif
+            }
+           nav{
+                position:relative;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 70px;
+                padding: 10px 100px;
+                box-sizing:border-box;
+            }
+         
+            nav .logo{
+                padding: 15px;
+                height: 30px;
+                float: left;
+                font-size: 25px;
+                font-weight: bold;             
+                color: #fff;
+            }
+            nav ul {
+                list-style:none;
+                float: right;
+                margin: 0;
+                padding: 0;
+                display: flex;  
+                font-weight: 600;   
+            }
+            nav ul li a{
+                float: right;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 15px;
+                text-decoration: none;
+                font-size: 17px;          
+            }
+            nav ul li a:hover{
+                background: rgb(200, 212, 200);
+                border-radius: 6px;
+                color: rgb(51, 48, 47);
+            }
+            nav ul li a.active{
+                background: #e2472f;
+                border-radius: 6px;    
+            
+            }
+            body {
+             margin:0;
+             padding:0;
+             font-family: sans-serif;
+             background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("/static/images/2.jpg");
+             background-position: center;
+             background-size: cover;
+              height: 100vh;
+}
+            .end {
+                overflow: hidden;
+                background-color: rgb(63, 63, 63);
+                position: fixed;
+                bottom: 0;
+                height: 55px;
+                width: 100%;
+   }
+   button{
+                      background-color:black;
+                      opacity: 78%;
+                      color: rgb(255, 255, 255);
+                      font-size: 20px;
+                      border-radius: 50px;
+                      width: 150px;"
+        }
+   input{
+                      background-color:black;
+                      opacity: 78%;
+                      color: white;
+                      font-size: 15px;
+                      width: 250px;
+		}
+  </style>
+    </head>
+    <body style="background image=/static/images/2.jpg;">
+        <div class="wrap">
+        <nav>
+        <div class="logo">PREDICTION  PAGE</div>
+        <ul>
+            <li><a href="{{ url_for('dashboard') }}">Home</a></li>
+            <li><a href="{{ url_for('logout') }}">Logout </a></li>
+        </ul>
+        </div>
+        </nav><br><br><br><br><br><br><br><br><br><br>
+
+    <div style="margin-top: -45px;" class="container"> 
+      <center> 
+        <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #ff7200;"><b>UPLOAD IMAGE TO PREDICT</b></h2><br>
+     <form action="{{url_for('prediction')}}" method="POST"  enctype="multipart/form-data">
+        <div class="input">
+		<input type="file" class="myFile" id="myFile" name="myFile">
+		</div>
+        <br><br><br>
+
+      <div class="button">
+            <button input type="submit" >Submit</button></div>
+     </form>
+	 <br>
+    <!-- <script>
+      function flashMessage(){
+        if("{{ flash_message }}"=='True'){
+          const im = document.createElement('img');
+          im.src = "{{url_for('static', filename='imagedata/save.png')}}";
+          im.height = "200px";
+          im.width = '200px';
+          im.alt = 'hello world'
+        }
+      }
+    </script> -->
+  <!-- <img src="{{url_for('static', filename='imagedata/save.png')}}" alt=""
+    height="200px"
+    width="200px"
+    /> -->
+     <br>
+          <h2 style="font-family:Arial, Helvetica, sans-serif; color: #ff7200;" > <b> The Estimated cost for the Damage is = {{prediction_text}}</b></h2>
+          </h3>
+    </center>
+</div> 
+</body>
+</html>
