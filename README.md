@@ -36,7 +36,7 @@ Ideation Phase
 
 PROJECT DEMO LINK :innocent:
 
-- [x] https://youtu.be/yDm8ho99mJQ
+- [x] https://youtu.be/lNwV5E0n3n4
 - [x] https://drive.google.com/drive/folders/1Bj76pege0zOOQPFtNe52VmGUCuPbrOjQ
 
 Project design Phase - 1 
